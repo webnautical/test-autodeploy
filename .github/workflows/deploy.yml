@@ -19,7 +19,7 @@ jobs:
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
           local-dir: ./
-          server-dir: /kalyanmayee.itworkshop.in/ # 👈 updated path test 1
+          server-dir: /kalyanmayee.itworkshop.in/ # 👈 updated path test
           exclude: |
             **/.git*
             **/.git*/**
